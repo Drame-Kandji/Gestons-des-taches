@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>todo_list</title>
+</head>
+
+<body>
+    <div class="bloc">
+        <header>
+            <ion-icon name="arrow-back-outline" class="right-icon"></ion-icon>
+            <div class="left-icons">
+                <ion-icon name="git-network-outline"></ion-icon>
+                <ion-icon name="notifications-circle-outline"></ion-icon>
+                <ion-icon name="archive-outline"></ion-icon>
+            </div>
+        </header>
+        <br>
+        <div class="haut">
+            <h2>Titre</h2>
+            <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+        </div><br>
+        <div class="nouv" id="nouv">
+        
+            <ion-icon name="stop-outline" id="icon"></ion-icon>
+            <input type="text" name="tache" id="tache" placeholder="Ajouter une tache">
+            
+        </div>
+        <div class="cave" >
+            <ul id="liste">
+                
+            </ul> 
+            <button type="button" onclick="ajoutTache()"><ion-icon name="add-outline" onclick="ajoutTache()"></ion-icon>
+                &nbsp;&nbsp;&nbsp; Elément de liste</button>
+        </div>
+        <br>
+        <h4>Tâches complétées</h4>
+        <ul id="liste-complete">
+            
+        </ul>
+        
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>

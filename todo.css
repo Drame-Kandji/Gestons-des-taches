@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: slateblue;
+}
+
+.bloc {
+    width: 50vh;
+    height: 65vh;
+    margin-inline: auto;
+    margin-block: 20vb;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width : 325) {
+    .bloc {
+        width: 80%;
+    }
+
+}
+
+.cave {
+    padding: 10px;
+
+}
+
+ input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+} 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: rgb(158, 151, 151);
+}
+.left-icons {
+    display: flex;
+    gap: 10px; /* Ajoute un espace entre les icônes */
+}
+
+
+.haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(158, 151, 151);
+}
+
+.bloc .haut icon-icon {
+    margin-left: 200px;
+    padding-left: 200px;
+    justify-self: start;
+
+
+}
+
+.haut h2 {
+    justify-self: end;
+    color: rgb(158, 151, 151);
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding-left: 20px;
+    color: white;
+
+}
+
+icon-icon {
+    color: white;
+    background-color: #fff;
+
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    list-style: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tache-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+h4{
+    color: rgb(158, 151, 151);
+}
